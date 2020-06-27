@@ -1,0 +1,56 @@
+/* 2020.06更新 */
+
+/*字体阴影*/
+* {
+	text-shadow: 0.0em 0.0em 0.13em #37F !important;
+	font-family: Optima, '华文黑体' !important;
+	background-color: rgba(0, 0, 0, 0);
+	-webkit-transition: all 0.4s ease;
+	font-weight: 300;
+	line-height: 1.625;
+	font-size: 16px !important;
+}
+
+/*去除链接下划线*/
+a {
+	text-decoration: none !important
+}
+
+/*淡蓝色文字效果*/
+a {
+	-webkit-transition: all 0.3s ease-out;
+}
+
+a:hover {
+	color: rgb(224, 7, 43)  !important;
+	text-shadow: -5px 3px 18px #39F !important;
+	-webkit-transition: all 0.3s ease-out;
+}
+ 
+
+
+/* 2018.09更新.
+
+*{
+	text-shadow:0.0em 0.0em 0.13em #37F !important;
+	font-family:Optima, '华文黑体' !important;
+}
+
+body{
+	background-color: #F7F7F7;
+	-webkit-font-smoothing: subpixel-antialiased !important;}
+
+a{
+	text-decoration:none !important}
+
+a{
+	-webkit-transition: all 0.3s ease-out;}
+a:hover{
+	color: #39F  !important;
+	text-shadow:-5px 3px 18px #39F !important;
+	-webkit-transition: all 0.3s ease-out;}
+*::-webkit-selection {
+	background: #333333 !important; 
+	color: #00FF00 !important; }
+
+ */
