@@ -2,6 +2,10 @@ import os
 
 all_files = os.listdir(os.getcwd())
 
+
+#   在某个文件夹内查找后缀是ass的文件
+
+
 for fff in all_files:
     if 'ass' not in fff:
         print('无文件')
@@ -17,3 +21,7 @@ for fff in all_files:
                     new_name = 'Slam Dunk - {}.ass'.format(f2)
                 print(new_name)
             os.rename(fff, new_name)
+
+
+
+  
